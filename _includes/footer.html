@@ -1,5 +1,6 @@
 <footer>
-	<div class="contact">
+	{% if site.your_name %}
+	<div class="footerText">
 		<h2>Get in Touch</h2>
 			<div id="contact-form">
 					<form action="https://formspree.io/mpzyqdng" method="POST">
@@ -10,8 +11,7 @@
 				</form>
 			</div>
 	</div>
-	{% if site.your_name %}
-	<p class="footerText">Made by {% if site.your_link %}<a href="{{ site.your_link }}">{% endif %}{{ site.your_name }}{% if site.your_link %}</a>{% endif %}{% if site.your_city %} in {{ site.your_city }}{% endif %}</p>
+	<!-- <p class="footerText">Made by {% if site.your_link %}<a href="{{ site.your_link }}">{% endif %}{{ site.your_name }}{% if site.your_link %}</a>{% endif %}{% if site.your_city %} in {{ site.your_city }}{% endif %}</p> -->
 	{% endif %}
 	<div class="footerIcons">
 
