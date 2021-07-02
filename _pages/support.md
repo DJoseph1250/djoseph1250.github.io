@@ -1,5 +1,5 @@
 ---
 layout: page
-title: What's New
+title: Support
 include_in_header: false
 ---

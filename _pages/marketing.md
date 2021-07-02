@@ -1,5 +1,5 @@
 ---
 layout: page
-title: What's New
+title: Marketing
 include_in_header: false
 ---
